@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Javascript Quiz!</h1>
+      <button id="timer" class="timer" onload=mastertimer();>60 Seconds</button>
+
+
+    </header>
+    <div class="container">
+      <h2>Question: What is javascript's role in the structure of websites?</h2>
+      <div class="game">
+        <textarea
+        readonly
+        id="status"
+        placeholder=" "
+      ></textarea>
+
+      <div class="numcorrect">
+        <textarea
+        readonly
+        id="score"
+        placeholder="Your score is 0"
+      ></textarea>
+
+      <br>
+        <button id="answer" class="btn" onclick= incorrect()>It functions as the "skeleton" of the website, defining the base elements as well as their order</button><br>
+        <button id="answer" class="btn" onclick= incorrect()>It defines the style of the website, inclusing colors and aestetic effects</button><br>
+        <button id="answer" class="btn" onclick= correct()> It functions as the "brains" or logical center of the website</button><br>
+        <button id="answer" class="btn" onclick= incorrect()>Javascript is a way of translating java apps to a web format</button><br>
+        <br>
+
+
+        
+            
+      </div>
+    </div>
+
+  </body>
+</html>
